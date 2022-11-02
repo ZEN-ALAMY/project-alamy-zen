@@ -17,6 +17,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/api", route);
+app.use("/////api", route);
 
 app.listen(5000, console.log("server started"));
